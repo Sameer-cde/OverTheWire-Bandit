@@ -1,4 +1,4 @@
-#Bandit Level 3 -> Level 4
+# Bandit Level 3 -> Level 4
 * **Objective:** Find the password hidden in a file inside the inhere directory.
 * **Commands Used:** cd inhere
                      ls -a
