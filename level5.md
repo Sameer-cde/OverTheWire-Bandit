@@ -10,7 +10,7 @@
 
       cat ./maybehere07/.file2
 
-      ![level5 proof](level5.png)
+      ![level5 method 1 proof](level5.png)
       
     * **Method 2:**
       
@@ -19,10 +19,10 @@
       file ./maybehere07/.file2
 
       ls -l
-      
+
       cat ./maybehere07/.file2
 
-      ![level5' proof](level5'.png)
+      ![level5 method 2  proof](level5.png)
 
 
       
