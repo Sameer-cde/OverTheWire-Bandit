@@ -5,16 +5,21 @@
     * **Method 1:**
       
       cd inhere
+
       find . -type f -size 1033c
+
       cat ./maybehere07/.file2
-      
+
       ![level5 proof](level5.png)
       
     * **Method 2:**
       
       find . -size 1033c
+
       file ./maybehere07/.file2
+
       ls -l
+      
       cat ./maybehere07/.file2
 
       ![level5' proof](level5'.png)
