@@ -3,8 +3,10 @@
 * **Objective:** Find the password stored in the only human -readable file inside the inhere directory.
 
 * **Commands Used:** 
-                     cd inhere
+                     cd inhere,
+
                      file ./*
+                     
                      cat ./-file07
 
 
