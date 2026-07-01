@@ -2,10 +2,11 @@
 
 * **Objective:** Find the password stored in a file somewhere on the server that is owned by user `bandit7` and owned by group `bandit6` and exactly `33 bytes` in size..
 * **Commands Used:**
- 
-    find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
-    cat /var/lib/dpkg/info/bandit7.password
- 
+   
+        find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+   
+        cat /var/lib/dpkg/info/bandit7.password
+    
 
 * **What I Learned:**
     * The `find /` command starts a search from the system root directory to scan every folder on the server.
