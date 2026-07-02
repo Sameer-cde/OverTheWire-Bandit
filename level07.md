@@ -21,7 +21,7 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 7 Proof](level7.png)
+![Level 7 Proof](level07.png)
 
 * **Password Saved:**              
   VR1ljMayciFxbnUokuQmJFw6QC9VKtub

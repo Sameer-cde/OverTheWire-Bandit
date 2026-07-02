@@ -14,7 +14,7 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 8 Proof](level8.png)
+![Level 8 Proof](level08.png)
 
 * **Password Saved:**
 

@@ -17,6 +17,6 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 6 Proof](level6.png)
+![Level 6 Proof](level06.png)
 
 * **Password Saved:** `[Bmnnvf82KzQLfxgAI2dlzYbr1u9pr3E3]`
