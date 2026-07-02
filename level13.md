@@ -21,10 +21,12 @@ On the local Ubuntu/WSL terminal & Paste the copied private key contents into th
 Step 3 — Secure File Permissions
 * **Command Used:** chmod 600 bandit14key
 
-Permission  Meaning
+Permission     Meaning
 
 `6`           `owner can read/write`
+
 `0`           `group has no access`
+
 `0`           `others have no access`
 
 SSH requires secure permissions for private keys.
@@ -81,14 +83,19 @@ scp securely transfers files over SSH.
 Linux file permissions are important for SSH security.
 SSH keys are widely used in cloud and Linux administration.
 Multiple valid methods can solve the same Linux task.
- * **Command	Purpose:**
-
  
-     ssh	    Secure remote login
+ * **Command	        Purpose:**
+
+
+     ssh	            Secure remote login
+     
      scp	            Secure file transfer
-     chmod 600	    Restrict file permissions
-     cat	            Display file contents
-     nano	        Terminal text editor
+     
+     chmod 600	        Restrict file permissions
+     
+     cat	             Display file contents
+     
+     nano	             Terminal text editor
 
       **Screenshots**
 * **Execution & Verification**
