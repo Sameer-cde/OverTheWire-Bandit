@@ -83,8 +83,9 @@ scp securely transfers files over SSH.
 Linux file permissions are important for SSH security.
 SSH keys are widely used in cloud and Linux administration.
 Multiple valid methods can solve the same Linux task.
+
  
- * **Command	        Purpose:**
+    * **Command	        Purpose:**
 
 
      ssh	            Secure remote login
