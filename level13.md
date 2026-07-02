@@ -20,7 +20,9 @@ On the local Ubuntu/WSL terminal & Paste the copied private key contents into th
 
 Step 3 — Secure File Permissions
 * **Command Used:** chmod 600 bandit14key
+
 Permission  Meaning
+
 `6`           `owner can read/write`
 `0`           `group has no access`
 `0`           `others have no access`
@@ -29,8 +31,11 @@ SSH requires secure permissions for private keys.
 
 Step 4 — Login Using SSH Key
 * **Command Used:** ssh -i bandit14key bandit14@bandit.labs.overthewire.org -p 2220
+
 Step 5 — Retrieve Password
+
 * **Command Used:** cat /etc/bandit_pass/bandit14
+
 * **Screenshots**
 * **Execution & Verification**
 ![Proof](<level13a1.png>)
@@ -51,16 +56,23 @@ scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .
 Enter the Level 13 password when prompted.
 
 Step 2 — Verify The File
+
 `ls`
 
 The transferred file:
+
 `sshkey.private`      should appear in the current local directory.
 
 Step 3 — Secure File Permissions
+
 `chmod 600 sshkey.private`
+
 Step 4 — Login Using The Key
+
 `ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220`
+
 Step 5 — Retrieve Password
+
 `cat /etc/bandit_pass/bandit14`
 
 * **What I Learned**:
@@ -70,6 +82,8 @@ Linux file permissions are important for SSH security.
 SSH keys are widely used in cloud and Linux administration.
 Multiple valid methods can solve the same Linux task.
  * **Command	Purpose:**
+
+ 
      ssh	    Secure remote login
      scp	            Secure file transfer
      chmod 600	    Restrict file permissions
