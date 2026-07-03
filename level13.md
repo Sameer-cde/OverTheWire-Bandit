@@ -113,3 +113,6 @@ ssh -i sshkey.private bandit14@localhost -p 2220
 is currently blocked by the latest OverTheWire infrastructure.
 
 Therefore, the SSH key was used externally from the local Ubuntu/WSL machine instead.
+ 
+ * **Password Saved:**
+  `AaWecNkG4FhxJQxz07uiwzVP6bJiYS65`
