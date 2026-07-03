@@ -18,11 +18,14 @@ Client/server communication can happen through terminal tools.
 
 `Command`    -->	`Purpose`
 
-nc           -->	Connect to network ports
+nc               -->	 Connect to network ports
 
-localhost    -->	Current machine
+localhost        -->	 Current machine
 
-cat	         -->  Display password file
+cat	             -->     Display password file
+
 
 **Execution & Verification**
+
+
 ![level14 Proof](<level14.png>)
