@@ -4,7 +4,7 @@
 cat /etc/bandit_pass/bandit16
 nmap -sV localhost -p 31000-32000
 openssl s_client -connect localhost:31790 
-echo "kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V" | openssl s_client -connect localhost:31790 -ign_eof
+echo "P@ssword" | openssl s_client -connect localhost:31790 -ign_eof
 nano /tmp/bandit17.key
 cat << 'EOF' > /tmp/bandit17.key
 chmod 600 /tmp/bandit17.key
@@ -50,6 +50,56 @@ and ends with:
 This is different from SSL certificate output such as:
 
 -----BEGIN CERTIFICATE-----
- 
- * **Screenshots**
+
+* **Verification:**
+`Port Scan`
+
+nmap -sV localhost -p 31000-32000
+
+Example output:
+
+31790/tcp open  ssl/unknown
+
+31518/tcp open  ssl/echo
+
+`SSL Connection`
+openssl s_client -connect localhost:31790 -ign_eof
+
+Example output:
+
+
+Correct!
+
+[next password hidden]
+
+-----BEGIN RSA PRIVATE KEY-----
+[hidden]
+-----END RSA PRIVATE KEY-----
+
+`Successful Login`
+
+ssh -i /tmp/bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
+
+Example:
+
+bandit17@bandit:~$
+
+Key Concept
+
+This level introduced:
+
+port scanning
+
+SSL/TLS service discovery
+
+network troubleshooting
+
+SSH private key authentication
+
+service enumeration
+
+
+
+
+
  
