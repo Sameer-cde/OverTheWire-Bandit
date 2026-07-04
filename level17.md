@@ -36,11 +36,12 @@ differences between two files
 
 
 Example structure:
-
+```
 42c42
 < new-password
  ---
 > old-password-hidden
+```
 
 
     < =	new content
@@ -66,11 +67,11 @@ Verification
 `diff passwords.new passwords.old`
 
 * **Output:**
-
+```
 < [new password-hidden]
  ---
 > [old-password-hidden]
-
+  ```
 Key Concept:
 
 This level introduced:
