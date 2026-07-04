@@ -12,14 +12,23 @@ ssh -i /tmp/bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
 
 * **What I Learned**
 nmap can scan a range of ports and identify services.
+
 Multiple SSL ports may exist, but only one provides the correct service.
+
 openssl s_client can connect to SSL/TLS services manually.
+
 TLS output may include messages like KEYUPDATE.
+
 SSL certificates are different from SSH private keys.
+
 Temporary files in /tmp may already exist and contain old data.
+
 Using echo and the -ign_eof flag
+
 This method keeps the interactive SSL connection open even after your password text is sent, which ensures the server has enough time to return the full private key before the stream cuts off.
+
 Using the cat << 'EOF' trick
+
 This method is used when you want to write or overwrite a file directly from the terminal line by line without opening a text editor like Nano.
 
 * **Troubleshooting Notes**
@@ -63,6 +72,7 @@ Example output:
 31518/tcp open  ssl/echo
 
 `SSL Connection`
+
 openssl s_client -connect localhost:31790 -ign_eof
 
 Example output:
@@ -103,3 +113,6 @@ service enumeration
 
 
  
+![Proof nmap](<level16nmap.png>)
+![Proof](<level16sshkeyworked.png>)
+![Proof](<level16sshlogin.png>)
