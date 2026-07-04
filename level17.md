@@ -10,6 +10,7 @@ The goal of this level was to compare two files and identify the changed line co
       Command-line analysis,
       Reading command output,
       Basic troubleshooting
+
 * **Commands Used:**
 
 1. Login to bandit17
@@ -17,10 +18,11 @@ The goal of this level was to compare two files and identify the changed line co
 `ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220`
 
 2. List Files
-`ls`
-     Files Found
-passwords.old
-passwords.new
+    `ls`
+
+ Files Found
+ passwords.old
+ passwords.new
 
 3. Compare the Files
 `diff passwords.old passwords.new`
@@ -43,6 +45,7 @@ Understanding the Output
 Example structure:
 
 42c42
+
 < new-password
 ---
 > [old-password-hidden]
