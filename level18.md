@@ -5,7 +5,7 @@ The password for Level 19 is stored in a file named `readme` in the home directo
 
 
 
-##  Commands Used
+## Commands Used
 * `ssh`: Secure Shell client used to execute a remote command without initiating an interactive terminal shell profile.
 
 
