@@ -29,6 +29,7 @@ Example:
 This indicates:
 
 SUID (Set User ID)
+
 What SUID Means
 
 Normally, programs execute with:
@@ -49,15 +50,12 @@ This allowed temporary execution with elevated permissions.
 
 3. Check Program Usage
 
-./bandit20-do
+  ./bandit20-do
+
 
 What ./ Means
 
-./
-
-tells Linux to execute a file from:
-
-the current directory
+    ./tells Linux to execute a file from the current directory
 
 Linux does not automatically run programs from the current directory for security reasons.
 
@@ -68,7 +66,9 @@ Linux does not automatically run programs from the current directory for securit
 **Understanding the Command**
 
 ./bandit20-do =	Execute SUID program
+
 cat	= Command to run
+
 /etc/bandit_pass/bandit20 =	Protected password file
 
 
@@ -93,6 +93,7 @@ bandit20 privileges
 allowing access to the protected file.
 
 **What I Learned**
+
 Linux permissions control file and program access.
 
 SUID programs execute with the owner's privileges.
