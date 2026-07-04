@@ -1,13 +1,21 @@
 # Bandit Level 16 -> Level 17
 * **Objective:** Find the correct SSL-enabled port between 31000-32000, submit the current password, and retrieve the SSH private key for bandit17.
 * **Commands Used:**
+
 cat /etc/bandit_pass/bandit16
+
 nmap -sV localhost -p 31000-32000
+
 openssl s_client -connect localhost:31790 
+
 echo "P@ssword" | openssl s_client -connect localhost:31790 -ign_eof
+
 nano /tmp/bandit17.key
+
 cat << 'EOF' > /tmp/bandit17.key
+
 chmod 600 /tmp/bandit17.key
+
 ssh -i /tmp/bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
 
 * **What I Learned**
@@ -108,7 +116,9 @@ SSH private key authentication
 
 service enumeration
 
+* **NOTE:**
 
+Direct localhost SSH login from inside bandit16 was unavailable/restricted on the current OverTheWire server, so the RSA private key was copied to a local terminal and used for authentication from the local machine.
 
 
 
