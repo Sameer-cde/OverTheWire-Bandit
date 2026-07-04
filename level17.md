@@ -33,22 +33,14 @@ The diff command compares:
 
 differences between two files
 
-It is commonly used in:
 
-software development
-Git version control
-configuration management
-debugging
-Linux system administration
-Understanding the Output
 
 Example structure:
 
 42c42
-
 < new-password
----
-> [old-password-hidden]
+ ---
+> old-password-hidden
 
 
     < =	new content
@@ -76,7 +68,7 @@ Verification
 * **Output:**
 
 < [new password-hidden]
----
+ ---
 > [old-password-hidden]
 
 Key Concept:
