@@ -14,6 +14,6 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 9 Proof](level09.png)
+![Level 9 Proof](../assets/level09.png)
 
 * **Password Saved:** [ B0s2khmbT9u0geKuOoVGW3JZKhndE3BG]

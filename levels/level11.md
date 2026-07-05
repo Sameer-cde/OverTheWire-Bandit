@@ -16,6 +16,6 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 11 Proof](level11.png)
+![Level 11 Proof](../assets/level11.png)
 
 * **Password Saved:** [GROozWPO8QyN0mGrjUkID0WCYkZiQxrN]

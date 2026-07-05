@@ -101,7 +101,7 @@ Multiple valid methods can solve the same Linux task.
       **Screenshots**
 * **Execution & Verification**
 ![Proof](<level13b1.png>)
-![Proof](level13b2.png)    
+![Proof](../assets/level13b2.png)    
 
      
  * **Important Note:**

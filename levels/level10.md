@@ -13,6 +13,6 @@
 ## Screenshots
 
 ### Execution & Verification
-![Level 10 Proof](level10.png)
+![Level 10 Proof](../assets/level10.png)
 
 * **Password Saved:** [pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro]

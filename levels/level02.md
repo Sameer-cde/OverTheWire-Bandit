@@ -6,4 +6,4 @@
 * **Password Saved:** [ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME]
 
 
-![Level 2 Proof](level02.png)
+![Level 2 Proof](../assets/level02.png)

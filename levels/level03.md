@@ -10,4 +10,4 @@
  
 
 
-![level 3 proof](level03.png)
+![level 3 proof](../assets/level03.png)

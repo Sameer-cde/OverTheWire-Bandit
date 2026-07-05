@@ -94,10 +94,10 @@ troubleshooting connectivity
 penetration testing
 
  # screenshots:
-![Proof](level20netcat-listner.png)
+![Proof](../assets/level20netcat-listner.png)
 
 # password verification message
 
 
 
-![alt text](level20passwordmatches.png)
+![alt text](../assets/level20passwordmatches.png)
