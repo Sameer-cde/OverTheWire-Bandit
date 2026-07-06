@@ -16,8 +16,8 @@
 
 * **Screenshots**
 **Execution & Verification**
-![Proof](<level15a.png>)
+![Proof](</assets/level15a.png>)
 
-![Proof](<level15b.png>)
+![Proof](</assets/level15b.png>)
 
 * **Password** `kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V`
