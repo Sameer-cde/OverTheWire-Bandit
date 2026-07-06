@@ -130,8 +130,8 @@ was successfully retrieved.
 # Screenshot Recommendation
 
 One screenshot showing:
-![Proof](</assets/level21 script analysis & output.png>)
-![Proof](</assets/level21 cronfile inspection.png>)
+![Proof](</assets/level21-script-analysis&output.png>)
+![Proof](</assets/level21-cronfile-inspection.png>)
 * cron file inspection
 * script analysis
 * successful password retrieval
