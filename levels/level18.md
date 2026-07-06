@@ -40,5 +40,5 @@ Shell configuration files can control login behavior.
 
 # Screenshot:
 
-![Proof](<level18remote-command.png>)
-![Proof](<level18commandoutput.png>)
+![Proof](</assets/level18remote-command.png>)
+![Proof](</assets/level18commandoutput.png>)

@@ -81,4 +81,4 @@ version differences,
 command-line text analysis,
 Linux troubleshooting workflow
 
-![Proof](<level17.png>)
+![Proof](</assets/level17.png>)

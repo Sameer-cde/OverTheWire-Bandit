@@ -123,6 +123,6 @@ Direct localhost SSH login from inside bandit16 was unavailable/restricted on th
 
 
  
-![Proof nmap](<level16nmap.png>)
-![Proof](<level16sshkeyworked.png>)
-![Proof](<level16sshlogin.png>)
+![Proof nmap](</assets/level16nmap.png>)
+![Proof](</assets/level16sshkeyworked.png>)
+![Proof](</assets/level16sshlogin.png>)

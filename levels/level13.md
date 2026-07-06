@@ -40,8 +40,8 @@ Step 5 — Retrieve Password
 
 * **Screenshots**
 * **Execution & Verification**
-![Proof](<level13a1.png>)
-![alt text](<level13a2.png>)
+![Proof](</assets/level13a1.png>)
+![alt text](</assets/level13a2.png>)
 
 
 
