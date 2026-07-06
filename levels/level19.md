@@ -108,9 +108,11 @@ Linux privilege management is important in system security.
 **Example output:*8
 
 [next-password-hidden]
+
+
 **Screenshot**
 
-One screenshot showing:
+
 ![Proof](</assets/level19ls-l&SUIDcommand.png>)
 ![Proof](</assets/level19execution.png>)
 
