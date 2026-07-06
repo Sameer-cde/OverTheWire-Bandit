@@ -111,8 +111,8 @@ Linux privilege management is important in system security.
 **Screenshot**
 
 One screenshot showing:
-![Proof](<level19ls-l&SUIDcommand.png>)
-![Proof](<level19execution.png>)
+![Proof](</assets/level19ls-l&SUIDcommand.png>)
+![Proof](</assets/level19execution.png>)
 
 
 
