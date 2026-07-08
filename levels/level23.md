@@ -55,37 +55,36 @@ How scheduled automation is used in Linux system administration.
 ```
 # Troubleshooting
 
-Issue 1: Permission denied
+Issue 1:`Permission denied`
 
-Cause: Tried to create or list files inside the cron spool directory.
 
-Solution: Created the script in /tmp and copied it into the cron directory instead.
+Cause: `Tried to create or list files inside the cron spool directory.`
 
-Issue 2: Password file not created
+Solution: `Created the script in /tmp and copied it into the cron directory instead.`
 
-Cause: The output directory was not writable by bandit24.
 
-Solution:
+Issue 2: `Password file not created`
 
-chmod 777 /tmp/myscript
 
-This allowed the cron job running as bandit24 to write the password file.
+Cause: `The output directory was not writable by bandit24.`
 
-Issue 3: SSH Session Disconnected
 
-Cause: Session was idle for too long.
+Solution:`chmod 777 /tmp/myscript`
 
-Solution: Reconnected using SSH and continued from the existing /tmp directory.
 
-Screenshots to Include
-Logging into Bandit23.
-Viewing cronjob_bandit23.
-Reading cronjob_bandit23.sh.
-Creating the Bash script.
-Copying the script into the cron directory.
-Waiting for cron execution.
-Successfully reading the password.txt file.
-Logging into Bandit24 with the new password.
+`This allowed the cron job running as bandit24 to write the password file.`
+
+
+Issue 3: `SSH Session Disconnected`
+
+
+Cause: `Session was idle for too long.`
+
+
+Solution: `Reconnected using SSH and continued from the existing /tmp directory.`
+
+
+
 ![level23 Proof](</assets/level23.png>)
 
 ![level23 Proof](</assets/level23-output.png>)
