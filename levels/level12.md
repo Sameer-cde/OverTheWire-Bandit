@@ -32,5 +32,3 @@
 * **Execution & Verification**
 ![level12 Proof](../assets/level12a.png)
 ![level12 Proof](../assets/level12b.png)
-
-* **Password Saved:**  `qQYQiHOBPR8zR61qxYqX45quvihF2uzk`

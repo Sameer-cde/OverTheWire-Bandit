@@ -20,4 +20,3 @@
 
 ![Proof](</assets/level15b.png>)
 
-* **Password** `kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V`

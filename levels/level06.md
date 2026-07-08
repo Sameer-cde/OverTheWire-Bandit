@@ -1,6 +1,7 @@
 # Bandit Level 6 -> Level 7
 
 * **Objective:** Find the password stored in a file somewhere on the server that is owned by user `bandit7` and owned by group `bandit6` and exactly `33 bytes` in size..
+
 * **Commands Used:**
    
         find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
@@ -19,4 +20,4 @@
 ### Execution & Verification
 ![Level 6 Proof](../assets/level06.png)
 
-* **Password Saved:** `[Bmnnvf82KzQLfxgAI2dlzYbr1u9pr3E3]`
+

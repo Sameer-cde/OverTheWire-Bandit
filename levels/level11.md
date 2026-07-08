@@ -1,6 +1,7 @@
 # Bandit Level 11 -> Level 12
 
 * **Objective:** Find the password for the next level stored in `data.txt`, where all letters have been rotated by 13 positions (ROT13).
+
 * **Commands Used:**
     ```
     cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
@@ -18,4 +19,3 @@
 ### Execution & Verification
 ![Level 11 Proof](../assets/level11.png)
 
-* **Password Saved:** [GROozWPO8QyN0mGrjUkID0WCYkZiQxrN]

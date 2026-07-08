@@ -1,6 +1,7 @@
 # Bandit Level 8 -> Level 9
 
 * **Objective:** Find the password for the next level stored in the file `data.txt`. The password is the only line of tex that occurs exactly once.
+
 * **Commands Used:**
     ```
     sort data.txt | uniq -u
@@ -16,8 +17,6 @@
 ### Execution & Verification
 ![Level 8 Proof](../assets/level08.png)
 
-* **Password Saved:**
 
-     `EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl`    
      
      

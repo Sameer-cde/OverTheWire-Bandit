@@ -15,6 +15,5 @@
     The file command analyzes a file's properties and tells you it's format.
 Using the wildcard * lets you scan all files at once, quickly helping you spot the lone ASCII text file containing the password.
 
-* **Password Saved:** [6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG]
 
 ![level4 proof](../assets/level04.png)
