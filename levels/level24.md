@@ -21,7 +21,15 @@ do
     echo "VAXpO3...[your_bandit24_pass]... $pin"
 done | nc localhost 30002
 ```
-
-
+# Solution Summary
+```
+Logged into Bandit24.
+Read the level description and identified that the daemon requires the current password and a four-digit PIN.
+Created a Bash script to generate all PINs from 0000 to 9999.
+Sent every password/PIN combination directly to the daemon using Netcat.
+Redirected the output to response.txt.
+Used grep to filter out unsuccessful attempts.
+Retrieved the password for Bandit25.
+```
 
 ![level24 Proof](/assets/level24-execution.png)
