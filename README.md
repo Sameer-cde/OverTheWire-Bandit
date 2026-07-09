@@ -26,3 +26,8 @@ I am practicing Linux system administration, command-line usage, Git/GitHub work
 - [ ] Level 0
 - [ ] Level 1
 - [ ] Level 2
+
+
+## Disclaimer
+
+This repository documents my progress through the **OverTheWire Bandit** wargame. All commands, scripts, and techniques were used exclusively within the official OverTheWire practice environment for educational purposes. They are shared to demonstrate Linux, Bash scripting, networking, and system administration skills.
