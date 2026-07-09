@@ -8,6 +8,7 @@ The password for level 25 is given by a daemon listening on port 30002. To get t
 * `cd` - To change directory.
 * `nano` - To write the Bash brute force script.
 * `chmod +x` - To grant execution permissions to the script.
+* `./brute.sh > response.txt` - Execute the script and save the ourput to a file.
 * `nc` - To connect to the local daemon on port 30002.
 * `grep -v` - To filter out all lines containing "Wrong" and only see the success message.
 
