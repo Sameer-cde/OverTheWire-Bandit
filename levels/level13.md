@@ -47,7 +47,7 @@ Step 5 — Retrieve Password
 
 
 # Method 2 — Using SCP To Transfer The Key.
-
+```
 In this method, the private key was securely transferred directly from the Bandit server to the local Ubuntu/WSL machine using scp.
 
 Step 1 — Transfer The Key
@@ -77,6 +77,7 @@ Step 4 — Login Using The Key
 Step 5 — Retrieve Password
 
 `cat /etc/bandit_pass/bandit14`
+```
 
 * **What I Learned**:
 ```
