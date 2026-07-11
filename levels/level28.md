@@ -54,6 +54,6 @@ The original password was present before the information leak was fixed.
 - Running `git show HEAD~1`.
 - Successfully obtaining the Bandit29 password.
 
-![Proof](<level28-running-gitlog.png>)
-![Proof](<level28-git-show-head1.png>)
-![alt text](<level28-password.png>)
+![Proof](</assets/level28-running-gitlog.png>)
+![Proof](</assets/level28-git-show-head1.png>)
+![alt text](</assets/level28-password.png>)
