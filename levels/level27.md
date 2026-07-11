@@ -44,11 +44,11 @@ Reading the README file
 Password for Bandit28
 ```
 * **Notes:**
-
+```
 Environment: Windows 11 + WSL Ubuntu
 Authentication: Password-based SSH using the Bandit27 password
 Repository Access: Git over SSH (Port 2220)
-
+```
 # Screenshot:
 ![Proof](</assets/level27-execution1.png>)
 ![Proof](</assets/level27-execution2.png>)
