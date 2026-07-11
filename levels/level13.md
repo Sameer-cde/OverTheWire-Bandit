@@ -2,7 +2,7 @@
 * **Objective:** Find the password for the next level stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level
 
 # Method 1 — Manual Key Creation Method
-
+```
 In this method, the private key was manually copied from the Bandit server and saved locally on the Ubuntu/WSL machine.
 
 Step 1 — Display The Private Key
@@ -13,7 +13,7 @@ The output contains the RSA private key.
 Step 2 — Create Local Key File
 
 On the local Ubuntu/WSL terminal & Paste the copied private key contents into the file & save.
-
+```
 * **Command Used:** nano bandit14key
                     ctrl+O
                     Ctrl+X
