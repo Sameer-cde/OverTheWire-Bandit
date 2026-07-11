@@ -19,8 +19,9 @@ On the local Ubuntu/WSL terminal & Paste the copied private key contents into th
                     Ctrl+X
 
 Step 3 — Secure File Permissions
-* **Command Used:** chmod 600 bandit14key
 
+* **Command Used:** chmod 600 bandit14key
+```
 Permission     Meaning
 
 `6`           `owner can read/write`
@@ -37,7 +38,7 @@ Step 4 — Login Using SSH Key
 Step 5 — Retrieve Password
 
 * **Command Used:** cat /etc/bandit_pass/bandit14
-
+```
 * **Screenshots**
 * **Execution & Verification**
 ![Proof](</assets/level13a1.png>)
@@ -45,7 +46,7 @@ Step 5 — Retrieve Password
 
 
 
-# Method 2 — Using SCP To Transfer The Key
+# Method 2 — Using SCP To Transfer The Key.
 
 In this method, the private key was securely transferred directly from the Bandit server to the local Ubuntu/WSL machine using scp.
 
@@ -78,6 +79,7 @@ Step 5 — Retrieve Password
 `cat /etc/bandit_pass/bandit14`
 
 * **What I Learned**:
+```
 SSH private keys allow authentication without passwords.
 scp securely transfers files over SSH.
 Linux file permissions are important for SSH security.
@@ -97,7 +99,7 @@ Multiple valid methods can solve the same Linux task.
      cat	             Display file contents
      
      nano	             Terminal text editor
-
+```
       **Screenshots**
 * **Execution & Verification**
 ![Proof](</assets/level13b1.png>)
@@ -105,7 +107,7 @@ Multiple valid methods can solve the same Linux task.
 
      
  * **Important Note:**
-
+```
 The original localhost method:
 
 ssh -i sshkey.private bandit14@localhost -p 2220
@@ -114,4 +116,5 @@ is currently blocked by the latest OverTheWire infrastructure.
 
 Therefore, the SSH key was used externally from the local Ubuntu/WSL machine instead.
  
+ ```
  
