@@ -6,14 +6,14 @@ I am practicing Linux system administration, command-line usage, Git/GitHub work
 
 ## Skills Practiced
 
-- Linux command line
-- SSH
-- File navigation
-- Permissions
-- Networking
-- Text processing
-- Bash scripting
-- Git & GitHub
+- Linux command-line navigation
+- File searching and manipulation
+- Permissions and ownership
+- SSH and key-based authentication
+- Compression and archiving tools
+- Text processing with commands like `grep`, `sort`, and `uniq`
+- Shell concepts and environment variables
+- Troubleshooting Linux systems
 
 ## Platforms Used
 
@@ -22,11 +22,22 @@ I am practicing Linux system administration, command-line usage, Git/GitHub work
 - OverTheWire Bandit
 
 ## Progress
+```
 
-- [ ] Level 0
-- [ ] Level 1
-- [ ] Level 2
+| Challenge          | Status       |
+|-----------         |--------------|
+| Bandit Level  0-33 | ✅ Completed |
+```
+## Final Achievement
 
+Successfully completed all Bandit levels (0–33) and documented each challenge with:
+
+- Objective
+- Commands used
+- Solution approach
+- What I learned
+- Concepts learned
+- Screenshots
 
 ## Disclaimer
 
